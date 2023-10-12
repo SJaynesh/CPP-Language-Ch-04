@@ -31,6 +31,9 @@
 
 <br/><br/>
 
+### private attributes :
+> * private atributes are support only for class.
+
 ### * Nasted member function :
 > * A nested member function is a function within a function.
 
