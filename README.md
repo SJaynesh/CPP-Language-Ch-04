@@ -286,7 +286,7 @@ class City {
 int main()
 {
 	City c1("Surat",395010);
-	City c2(c1); // Implicit 
+	City c2(c1); // Explicit 
 	
 
 	c1.getData();
