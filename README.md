@@ -69,9 +69,8 @@
 
 <br>
 
+> `Definition : `
 > * Collection of Object of same class.
-
-  > `Definition : `
 
   <br>
   
