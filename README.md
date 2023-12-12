@@ -1,55 +1,90 @@
 # Encapsulation :
 
-## * What is Data Encapsulation ?
+<br><br>
+
+## What is Data Encapsulation ?
+
+<br>
 
 > * Encapsulation means wrapping code as much as you can in a class.
 > * every logic must be written in class.
 > * It helps in hiding the implementation details and provides data protection.
 
-<br/><br/><br/>
+<br/><br/>
 
-## * setter & getter :
-<br/>
+## setter & getter :
+
+<br>
 
  `setter :` 
+ 
+ <br>
+
   > * a function to take input of attributes.
 
 <br/>
 
   `getter :`
-  > * a function to give output of attributes.
 
-<br/><br/>
-## * this Keyword :
+<br>
+  
+> * a function to give output of attributes.
+
+<br/>
+
+## this Keyword :
+
+<br>
+
 > * when class attributes and function parameters both have same name, then we can make difference and identify the class attributes using this keyword.
 > * this keyword is written before the class variable.
 
+<br>
+
 `USE : `
+
+<br>
+
 > * this->varName
 
-`->` Fat arrow 
-
-<br/><br/>
+<br>
 
 ### private attributes :
+
+<br>
+
 > * private atributes are support only for class.
 
+<br>
+
 ### * Nasted member function :
+
+<br>
+
 > * A nested member function is a function within a function.
 
-<br/><br/>
+<br>
 
 ## Array of Objects :
+
+<br>
+
 > * Collection of Object of same class.
 
   > `Definition : `
+
+  <br>
+  
   > * className objName[size];
 
   > `Example : `
+
+<br>
+  
   > * student s1[50]; 
 
 
-<br/><br/>
+<br><br>
 
 ## What is Static Member : 
 
