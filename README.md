@@ -6,7 +6,7 @@
 
 <br>
 
-> * Encapsulation means wrapping code as much as you can in a class.
+> * `Encapsulation means wrapping code as much as you can in a class.`
 > * every logic must be written in class.
 > * It helps in hiding the implementation details and provides data protection.
 
@@ -36,7 +36,7 @@
 
 <br>
 
-> * when class attributes and function parameters both have same name, then we can make difference and identify the class attributes using this keyword.
+> * `when class attributes and function parameters both have same name, then we can make difference and identify the class attributes using this keyword`.
 > * this keyword is written before the class variable.
 
 <br>
@@ -61,7 +61,7 @@
 
 <br>
 
-> * A nested member function is a function within a function.
+> * `A nested member function is a function within a function.`
 
 <br>
 
