@@ -85,6 +85,30 @@
 
 <br><br>
 
+
+## Friend Function:
+
+<br>
+
+> * `It is the type of function by which we can access private attributes or methods of any class.`
+> * It can be created using friend keyword.
+
+<br>
+
+### friend Keyword:
+
+<br>
+
+> * friend returnDataType functionName();
+
+<br>
+
+> * It's being used as a getter when doesn't contain it's own getter.
+> * `Though friend function can also access the private attributes of class, it can be us as a getter of one or more class.`
+
+
+<br><br>
+
 ## What is Static Member : 
 
 > * these are the members which represents the class directly.
