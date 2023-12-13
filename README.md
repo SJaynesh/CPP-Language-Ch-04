@@ -106,10 +106,17 @@
 > * It's being used as a getter when doesn't contain it's own getter.
 > * `Though friend function can also access the private attributes of class, it can be us as a getter of one or more class.`
 
+<br>
+
+<pre>
+</pre>
+
 
 <br><br>
 
 ## What is Static Member : 
+
+<br>
 
 > * these are the members which represents the class directly.
 > * these members are common for the all class objects.
@@ -124,6 +131,8 @@
 
 ### Static data members :
 
+<br>
+
 > * attributes created using static keyword.
 > * this kind of variables acquires the memory space only once among all objects.
 > * static data members must be assigned once in global area using scope resolution operator according to following syntex.
@@ -135,6 +144,9 @@
 
 
 ### Static member functions :
+
+<br>
+
 > * class methods created using static keyword.
 > * these kind of methods can only used with static atributes.
 > * normal data members(attributes) aren't supported in static member functions.
