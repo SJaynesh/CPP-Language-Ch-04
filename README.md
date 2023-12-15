@@ -189,7 +189,7 @@ https://github.com/SJaynesh/CPP-Languge-Ch-04/assets/115562979/45f31973-7713-4d2
 <br>
 
 > `1. Default Constructor` <br><br>
-> `2. Parameterized Constructor` <br><br>
+> `2. Parameterised Constructor` <br><br>
 > `3. Copy Constructor` <br><br>
 
 
@@ -227,7 +227,7 @@ https://github.com/SJaynesh/CPP-Languge-Ch-04/assets/115562979/45f31973-7713-4d2
 
 <br/><br/>
 
-### 2. Parameterized Constructor :
+### 2. Parameterised Constructor :
 
 <br>
 
@@ -243,7 +243,7 @@ https://github.com/SJaynesh/CPP-Languge-Ch-04/assets/115562979/45f31973-7713-4d2
   class City {
   	
   	private :
-  		string cityName;
+  		char cityName[];
   		int pincode;
   	
   	//Parameterized Constructor
