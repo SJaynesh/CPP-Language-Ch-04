@@ -162,15 +162,20 @@
 
 ## Constructor :
 
+<br>
+
 > * `Constructor is a block of code which is automatically invoked when class is instanciated.`
 > * Constructor is automatically called when an object(instance of class) is created. It is a special member function of the class.
 
 <br>
 
 ### Rules to Create Constructor :
+
+<br>
+
 > * The name constructor must be same as class name.
 > * Constructor cannot have any return datatype like void, int, char, etc...
-> * It cannot return anything.
+> * Constructor cannot return anything.
 
 <br/><br/>
 
@@ -180,6 +185,9 @@ https://github.com/SJaynesh/CPP-Languge-Ch-04/assets/115562979/45f31973-7713-4d2
 <br/>
 
 ## Types of Constructor :
+
+<br>
+
 > `1. Default Constructor` <br><br>
 > `2. Parameterized Constructor` <br><br>
 > `3. Copy Constructor` <br><br>
@@ -188,6 +196,9 @@ https://github.com/SJaynesh/CPP-Languge-Ch-04/assets/115562979/45f31973-7713-4d2
 <br/><br/>
 
 ### 1. Default Constructor :
+
+<br>
+
 > * `Default constructor is the constructor which doesn’t take any argument. It has no parameters. In this case, as soon as the object is created the constructor is called which initializes its data members. `
 
 <br/>
@@ -217,6 +228,9 @@ https://github.com/SJaynesh/CPP-Languge-Ch-04/assets/115562979/45f31973-7713-4d2
 <br/><br/>
 
 ### 2. Parameterized Constructor :
+
+<br>
+
 > * `These are the constructors with parameters. Using this Constructor you can provide different values to data members of different objects, by passing the appropriate values as arguments. `
 
 <br/>
@@ -263,6 +277,9 @@ https://github.com/SJaynesh/CPP-Languge-Ch-04/assets/115562979/45f31973-7713-4d2
 <br/><br/>
 
 ### 3. Copy Constructor :
+
+<br>
+
 > * ` A copy constructor  is a member function which initializes an object using another object of the same class. `
 > * to copy data of another object.
 > * Both object must belong to the same class.
@@ -368,11 +385,17 @@ int main()
 <br/><br/>
 
 ## Destructor :
+
+<br>
+
 > * `A Block of code which is automatically invoked when object is distroyed or code is completed.`
 
 <br/>
 
 ### Rules to Create Constructor :
+
+<br>
+
 > * It's name must be same as class name but it begies with tild '~' operator.
 > * Destructor cannot have any return datatype like void, int, char, etc...
 > * It cannot return anything.
