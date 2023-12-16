@@ -388,7 +388,7 @@ int main()
 
 <br>
 
-> * `A Block of code which is automatically invoked when object is distroyed or code is completed.`
+> * `A Block of code which is automatically invoked when a program is completed or an object is deleted.`
 
 <br/>
 
