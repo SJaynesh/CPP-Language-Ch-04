@@ -2,42 +2,55 @@
 
 <br><br>
 
-## What is Data Encapsulation ?
+## Data Encapsulation
+(Encapsulation / Data Hiding)
 
 <br>
 
 > * `Encapsulation means wrapping code as much as you can in a class.`
-> * every logic must be written in class.
+> * Every logic must be written in class.
+> * The meaning of Encapsulation is to make sure that **"sensitive" data is hidden from users**.
 > * It helps in hiding the implementation details and provides data protection.
+> * To achieve this, we **must declare class varibles/attributes** as **private**(cannot be accessed from outside the class).
+> * If you want others **to read or modify the value** of a private member, you can provide **public getter and setter methods**.
 
 <br/><br/>
 
-## setter & getter :
+## Setter & Getter :
 
 <br>
 
- `setter :` 
+ ` setter ` 
  
  <br>
 
-  > * a function to take input of attributes.
+  > * A method which is used to set(initialize) the data members.
+  > * A function to take input of attributes.
 
 <br/>
 
-  `getter :`
+  ` getter `
 
 <br>
-  
-> * a function to give output of attributes.
+
+ > * A method which is used to get(access) the data members.
+ > * A function to give output of attributes.
 
 <br/>
+
+`NOTE : `
+> Both setter & getter must be public for access and modify the data members.
+
+<br><br>
 
 ## this Keyword :
 
 <br>
 
-> * `when class attributes and function parameters both have same name, then we can make difference and identify the class attributes using this keyword`.
-> * this keyword is written before the class variable.
+> * `When class attributes and function parameters both have same name, then we can make difference and identify the class attributes using this keyword`.
+> * The this keyword is pointer that points to the current instance of a class.
+> * It is a special keyword that is used within the member funtions of a class to refer to the object on which the function is called.
+> * this keyword is written before the class attributes.
 
 <br>
 
@@ -46,6 +59,7 @@
 <br>
 
 > * this->varName
+> * this of variable name.
 
 <br>
 
