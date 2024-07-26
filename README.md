@@ -2,7 +2,7 @@
 
 <br><br>
 
-## Data Encapsulation
+## `Data Encapsulation`
 (Encapsulation / Data Hiding)
 
 <br>
@@ -16,7 +16,7 @@
 
 <br/><br/>
 
-## Setter & Getter :
+## `Setter & Getter` 
 
 <br>
 
@@ -43,7 +43,7 @@
 
 <br><br>
 
-## this Keyword :
+## `this Keyword`
 
 <br>
 
@@ -61,95 +61,89 @@
 > * this->varName
 > * this of variable name.
 
-<br>
+<br><br>
 
-### private attributes :
-
-<br>
-
-> * private atributes are support only for class.
+### `private attributes`
 
 <br>
 
-### * Nasted member function :
+> * Access to provide attributes is controlled through public methods (getter and setters).
+> * Private attributes are support only for class.
+
+<br><br>
+
+### `Nasted member function`
 
 <br>
 
 > * `A nested member function is a function within a function.`
 
-<br>
+<br><br>
 
-## Array of Objects :
-
-<br>
-
-> `Definition : `
-> * Collection of Object of same class.
-
-  <br>
-  
-  > * className objName[size];
-
-  > `Example : `
+## `Array of Objects`
 
 <br>
-  
-  > * student s1[50]; 
+
+> * An array of objects is a collection of object of the same class stored in contiguous memory locations.
+> * Eash element of the array is an instance of the class.
+
+<br><br>
+
+![arrayOfObject](https://github.com/user-attachments/assets/68f83fed-25b2-41ec-b805-b79b0d8cda51)
+
+<br><br>
+
+## `Scope Resulation Operator`
+
+<br>
+
+> * The scope resoultion operator (::) is used to access elements in a class or to access global variables.
+> * It allows you to specify the context in which a particular identifier (variable, function, or class) is defined.
+
+<br>
+
+` Commonly it is used for: `
+
+ > Access Global Variables
+ > Access Static Members  
+
+<br>
+
+![global varibales](https://github.com/user-attachments/assets/d1cb0521-6138-4781-be53-3983b0063bb3)
 
 
 <br><br>
 
-
-## Friend Function:
-
-<br>
-
-> * `It is the type of function by which we can access private attributes or methods of any class.`
-> * It can be created using friend keyword.
+## `static Keyword`
 
 <br>
 
-### friend Keyword:
+> * A static is a keyword or modifier that belongs to the type not instance. So **instance is not requied to access the static members**.
+> * In C++, a static can be field, method, constructor, class, or properties.
+> * A field which is declared as static is called static field. It is shared among all the objects.
+> * These are the members which represents the class directly.
+> * These members are common for the all class objects.
+> * These member also gives the same value for all class objects.
+> * There are two types of static members:
 
 <br>
 
-> * friend returnDataType functionName();
+### `Use case of static Keyword`
 
 <br>
 
-> * It's being used as a getter when doesn't contain it's own getter.
-> * `Though friend function can also access the private attributes of class, it can be us as a getter of one or more class.`
-
-<br>
-
-<pre>
-</pre>
-
-
-<br><br>
-
-## What is Static Member : 
-
-<br>
-
-> * these are the members which represents the class directly.
-> * these members are common for the all class objects.
-> * these member also gives the same value for all class objects.
-> * there are two types of static members:
-> * `static data members`
-> * `static member functions`
-> * these are the simply class attributes and methods which can be
-> * created using 'static' keyword.
+> 1. Static Data Members
+> 2. Static Members Functions 
 
 <br/><br/>
 
-### Static data members :
+### `Static Data Members`
 
 <br>
 
-> * attributes created using static keyword.
-> * this kind of variables acquires the memory space only once among all objects.
-> * static data members must be assigned once in global area using scope resolution operator according to following syntex.
+> * Attributes created using **static** keyword.
+> * This kind of variables acquires the memory space only once among all objects.
+> * static data members must be assigned once in global area using **scope resolution operator** according to following syntex.
 > * `::` scope resolution operator or Membership lable operator.
 > * `DataType  ClassName :: varName = value;`
 > * static data members gives the same value for all class objects.
@@ -157,20 +151,17 @@
 <br/><br/>
 
 
-### Static member functions :
+### `Static Member Functions`
 
 <br>
 
-> * class methods created using static keyword.
+> * class methods created using **static** keyword.
 > * these kind of methods can only used with static atributes.
 > * normal data members(attributes) aren't supported in static member functions.
 > * these methods can be accessed directly only if there are public
 > * static member function can be accessed like following syntex.
 > * `ClassName :: methodName([arguments]);`
 
-<br/><br/>
-
-<p><img src = "https://github.com/SJaynesh/CPP-Languge-Ch-03/assets/115562979/449c51c6-ecce-4220-a29e-63b54725e52b.png" width=60% height=50%></p>
 
 <br><br>
 
@@ -458,4 +449,30 @@ int main()
 </pre>
 
 
+<br><br>
+
+<br><br>
+
+
+## Friend Function:
+
+<br>
+
+> * `It is the type of function by which we can access private attributes or methods of any class.`
+> * It can be created using friend keyword.
+
+<br>
+
+### friend Keyword:
+
+<br>
+
+> * friend returnDataType functionName();
+
+<br>
+
+> * It's being used as a getter when doesn't contain it's own getter.
+> * `Though friend function can also access the private attributes of class, it can be us as a getter of one or more class.`
+
+<br>
 
