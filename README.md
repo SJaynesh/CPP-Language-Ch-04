@@ -76,7 +76,7 @@
 
 <br>
 
-> * `A nested member function is a function within a function.`
+> * A nested member function is a function within a function.
 
 <br><br>
 
