@@ -72,7 +72,7 @@
 
 <br><br>
 
-### `Nasted member function`
+### `Nasted Member Function`
 
 <br>
 
@@ -156,9 +156,9 @@
 <br>
 
 > * class methods created using **static** keyword.
-> * these kind of methods can only used with static atributes.
-> * normal data members(attributes) aren't supported in static member functions.
-> * these methods can be accessed directly only if there are public
+> * These kind of methods can only used with static atributes.
+> * Normal data members(attributes) aren't supported in static member functions.
+> * These methods can be accessed directly only if there are public
 > * static member function can be accessed like following syntex.
 > * `ClassName :: methodName([arguments]);`
 
