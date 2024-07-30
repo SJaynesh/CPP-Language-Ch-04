@@ -170,9 +170,21 @@
 <br>
 
 > * `Constructor is a block of code which is automatically invoked when class is instanciated.`
+> * A Constructor is a **special member function** is a class that **gets executed when a class is instantiated**(an object of the class is created).
 > * Constructor is automatically called when an object(instance of class) is created. It is a special member function of the class.
+> * It has the **same name as the class** and is **used to initialize the object's data members**.
+
+<br><br>
+
+## Types of Constructor :
 
 <br>
+
+> `1. Default Constructor` <br><br>
+> `2. Parameterised Constructor` <br><br>
+> `3. Copy Constructor` <br><br>
+
+<br><br>
 
 ### Rules to Create Constructor :
 
@@ -187,47 +199,20 @@
 https://github.com/SJaynesh/CPP-Languge-Ch-04/assets/115562979/45f31973-7713-4d2c-9c58-6a1c581e41f5
 
 
-<br/>
-
-## Types of Constructor :
-
-<br>
-
-> `1. Default Constructor` <br><br>
-> `2. Parameterised Constructor` <br><br>
-> `3. Copy Constructor` <br><br>
-
-
 <br/><br/>
 
 ### 1. Default Constructor :
 
 <br>
 
-> * `Default constructor is the constructor which doesn’t take any argument. It has no parameters. In this case, as soon as the object is created the constructor is called which initializes its data members. `
+> * Default constructor is the constructor which doesn’t take any argument. It has no parameters. In this case, as soon as the object is created the constructor is called which initializes its data members. 
 
 <br/>
 
-<pre>
-  #include<iostream>
-  using namespace std;
+![default constructor](https://github.com/user-attachments/assets/23f0ab70-22c9-402c-86f5-1c0c53e58a36)
 
-  class City {
-  	
-  	//default Constructor
-  	public :
-  		
-  	City() {
-  		cout << "My City Surat ...";
-  	}
-  };
-  
-  int main()
-  {
-  	City c1;	
-  }
-     
-</pre>
+<br/>
+
 
 
 <br/><br/>
