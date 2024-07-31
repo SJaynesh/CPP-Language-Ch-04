@@ -176,6 +176,16 @@
 
 <br><br>
 
+### Rules to Create Constructor :
+
+<br>
+
+> * The name constructor must be same as class name.
+> * Constructor cannot have any return datatype like void, int, char, etc...
+> * Constructor cannot return anything.
+
+<br><br>
+
 ## Types of Constructor :
 
 <br>
@@ -186,17 +196,7 @@
 
 <br><br>
 
-### Rules to Create Constructor :
-
-<br>
-
-> * The name constructor must be same as class name.
-> * Constructor cannot have any return datatype like void, int, char, etc...
-> * Constructor cannot return anything.
-
-<br/><br/>
-
-https://github.com/SJaynesh/CPP-Languge-Ch-04/assets/115562979/45f31973-7713-4d2c-9c58-6a1c581e41f5
+https://github.com/SJaynesh/CPP-Languge-Ch-04/assets/115562979/45f31973-7713-4d2c-9c58-6a1c581e41f5 
 
 
 <br/><br/>
@@ -213,6 +213,32 @@ https://github.com/SJaynesh/CPP-Languge-Ch-04/assets/115562979/45f31973-7713-4d2
 
 <br/>
 
+<br/>
+
+<pre>
+ 
+  #include<<iostream>iostream>
+  using namespace std;
+
+  class City {
+  	
+  	//Default Constructor
+  	public :
+  		
+  		City() {
+  			cout << "Welcome to City." << endl;
+  		}
+  };
+  
+  int main()
+  {
+  	City c1;
+        City c2;							    
+  }
+     
+</pre>
+
+
 
 
 <br/><br/>
@@ -221,13 +247,17 @@ https://github.com/SJaynesh/CPP-Languge-Ch-04/assets/115562979/45f31973-7713-4d2
 
 <br>
 
-> * `These are the constructors with parameters. Using this Constructor you can provide different values to data members of different objects, by passing the appropriate values as arguments. `
+> * These are the constructors with parameters. Using this Constructor you can provide different values to data members of different objects, by passing the appropriate values as arguments.
 
 <br/>
 
+![Parameterized Constructor](https://github.com/user-attachments/assets/e7075629-3cac-4981-a605-a85d6bb54c1a)
+
+<br/><br/>
+
 <pre>
  
-  #include<iostream>
+  #include<<iostream>iostream>
   using namespace std;
 
   class City {
@@ -270,21 +300,26 @@ https://github.com/SJaynesh/CPP-Languge-Ch-04/assets/115562979/45f31973-7713-4d2
 
 <br>
 
-> * ` A copy constructor  is a member function which initializes an object using another object of the same class. `
-> * to copy data of another object.
+> * A copy constructor  is a member function which initializes an object using another object of the same class. 
+> * To copy data of another object.
 > * Both object must belong to the same class.
+
 > * Two types of copy constructor.
-> * `1. Implicit  `
-> * `2. Explicit  `
+> * `1. Implicit Copy Constructor `
+> * `2. Explicit Copy Constructor `
 
 <br/>
 
-#### `1. Implicit  : `
+![Copy Constructor](https://github.com/user-attachments/assets/46439120-ccd4-4938-a8fd-64cd7e2071d1)
+
+<br/><br/>
+
+#### `1. Implicit Copy Constructor : `
 
 <br/>
 
 <pre>
- #include<iostream>
+ #include<<iostream>iostream>
  using namespace std;
 
 class City {
@@ -313,7 +348,7 @@ class City {
 int main()
 {
 	City c1("Surat",395010);
-	City c2 = c1; // Implicit 
+	City c2 = c1; // Implicit Copy Constructor
 	
 
 	c1.getData();
@@ -324,13 +359,14 @@ int main()
 
 <br/>
 
-#### `2. Explicit  : `
+#### `2. Explicit Copy Constructor : `
 
 <br/>
 
 <pre>
- #include<iostream>
- using namespace std;
+
+#include<<iostream>iostream>
+using namespace std;
 
 class City {
 	
@@ -363,7 +399,7 @@ class City {
 int main()
 {
 	City c1("Surat",395010);
-	City c2(c1); // Explicit 
+	City c2(c1); // Explicit Copy Constructor
 	
 
 	c1.getData();
@@ -379,10 +415,11 @@ int main()
 <br>
 
 > * `A Block of code which is automatically invoked when a program is completed or an object is deleted.`
+> *  A destructor is a special member fucntion in a class that gets executed when an object is destroyed or goes out of scope.
 
-<br/>
+<br><br>
 
-### Rules to Create Constructor :
+### Rules to Create Destructor :
 
 <br>
 
@@ -392,8 +429,14 @@ int main()
 
 <br/>
 
+<br>
+
+![Destructor](https://github.com/user-attachments/assets/85073e4c-2b44-414c-b690-8e2abd1c6719)
+
+<br><br>
+
 <pre>
- #include<iostream>
+#include<iostream>
 using namespace std;
 
 class City {
@@ -412,7 +455,7 @@ class City {
 		
 		// Destructor
 		~City() {
-			cout << "Code is End";
+			cout << "Thankyou for Visit...";
 		}
 		
 		void getData()
